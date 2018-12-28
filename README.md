@@ -13,9 +13,9 @@ No. of faces in dice: **N** <br/><br/>
 Let us say we have some **x** between 1 to N, where we stop at first roll only we have output of the roll greater than **x**. <br/><br/>
 If output is less than **x**, then we move to next roll by paying one rupee. Now if we forget our previous steps for a moment, we can see that we are at the same position where we were at the first roll i.e. we will stop at second roll if output is greater than x or we will move on to next step. <br/><br/>
 Assuming expected value of this game is **E**, we can safely write:<br/><br/>
-![](http://latex.codecogs.com/gif.latex?E%20%3D%20%28%5Cfrac%7BN-x%7D%7BN%7D*%5Cfrac%7Bx&plus;N&plus;1%7D%7B2%7D%29&plus;%28%5Cfrac%7Bx%7D%7BN%7D*%28E-1%29%29)<br/>
-Using first derivative and second derivtive test we can find the value of x for which E will be maximum and the final value of E will be:
-![](http://latex.codecogs.com/gif.latex?E%20%3D%20%28%5Cfrac%7B2N-%5Csqrt%7B2N%7D&plus;1%7D%7B2%7D%29-%28%5Cfrac%7BN-%5Csqrt%7B2N%7D%7D%7B%5Csqrt%7B2N%7D%7D%29)
+![](http://latex.codecogs.com/gif.latex?E%20%3D%20%28%5Cfrac%7BN-x%7D%7BN%7D*%5Cfrac%7Bx&plus;N&plus;1%7D%7B2%7D%29&plus;%28%5Cfrac%7Bx%7D%7BN%7D*%28E-1%29%29)<br/><br/>
+Using first derivative and second derivtive test we can find the value of x for which E will be maximum and the final value of E will be:<br/><br/>
+**![](http://latex.codecogs.com/gif.latex?E%20%3D%20%28%5Cfrac%7B2N-%5Csqrt%7B2N%7D&plus;1%7D%7B2%7D%29-%28%5Cfrac%7BN-%5Csqrt%7B2N%7D%7D%7B%5Csqrt%7B2N%7D%7D%29)**
 
 
 
