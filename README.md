@@ -13,7 +13,7 @@ No. of faces in dice: **N** <br/><br/>
 Let us say we have some **x** between 1 to N, where we stop at first roll only we have output of the roll greater than **x**. <br/><br/>
 If output is less than **x**, then we move to next roll by paying one rupee. Now if we forget our previous steps for a moment, we can see that we are at the same position where we were at the first roll i.e. we will stop at second roll if output is greater than x or we will move on to next step. <br/><br/>
 Assuming expected value of this game is **E**, we can safely write:<br/><br/>
-E = [(N-x)/N\*(x+N+1)/2 + x/N\*(E-1)] 
+E = [(N-x)/N \* (x+N+1)/2 + x/N \* (E-1)] 
 
 
 
